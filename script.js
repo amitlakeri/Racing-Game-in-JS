@@ -5,6 +5,7 @@ const gameArea = document.querySelector('.gameArea')
 const ClickToStart = document.querySelector('.ClickToStart')
 
 ClickToStart.addEventListener('click', Start);
+gameArea.addEventListener('click', Start);
 document.addEventListener('keydown',keydown);
 document.addEventListener('keyup',keyup);
 let keys = {

@@ -7,6 +7,7 @@ const ClickToStart = document.querySelector('.ClickToStart')
 ClickToStart.addEventListener('click', Start);
 gameArea.addEventListener('click', Start);
 document.addEventListener('keydown',keydown);
+document.addEventListener('input',keydown);
 document.addEventListener('keyup',keyup);
 let keys = {
     ArrowUp: false,

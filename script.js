@@ -126,5 +126,5 @@ function randomColor(){
   function endGame() {  
     player.isStart = false;  
     player.speed = 5;  
-    startScreen.classList.remove('hide');  
+    startscreen.classList.remove('hide');  
   }
